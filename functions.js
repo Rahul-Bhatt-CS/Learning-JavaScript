@@ -1,25 +1,21 @@
-// // function myname(){
-// //     console.log('R')
-// //     console.log('a')
-// //     console.log('h')
-// //     console.log('u')
-// //     console.log('l')
-// // }
+// function myname(){
+//     console.log('R')
+//     console.log('a')
+//     console.log('h')
+//     console.log('u')
+//     console.log('l')
+// }
 
-// // myname()
-// // myname()
-// // myname()
-// // myname()
-// // myname()
-
-
-
-// // here num1 and num2 are parameters 
+// myname()
+// myname()
+// myname()
+// myname()
+// myname()
+// here num1 and num2 are parameters
 // function addnums(num1,num2){
 //     console.log(num1+num2)
 // }
-
-// // here 2 and 1 are args
+// here 2 and 1 are args
 // addnums(2,1)
 
 
