@@ -48,6 +48,12 @@ const obj2 = {
     c:1,
     d:2,
 }
-
+// there are two ways to do this
+// first:
+const obj4 = {...obj1,...obj2}
+// second:
 const obj3 = Object.assign({},obj1,obj2);
 console.log(obj3);
+if(obj3 === obj4){
+    console.log(true)
+}
