@@ -37,3 +37,11 @@
 // addTwo(4)
 
 // note that in this way the function cannot be called before declaration.
+
+
+
+// when we want to make a IIFE (Immediately Invoked Function Expression) 
+// then we need to use this format:
+// (write the function here and the next parenthesis will call the function)()
+
+// the use of IIFE is to remove the global variable pollution from the functions that can alter the working of the function.
