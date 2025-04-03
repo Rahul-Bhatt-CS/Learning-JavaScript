@@ -24,13 +24,30 @@
 
 // nested objects:
 
-const user = {
-    userName:{
-        firstName:"Rahul",
-        lastName:"bhatt" 
-    },
-    email:"rahul@google.com"
+// const user = {
+//     userName:{
+//         firstName:"Rahul",
+//         lastName:"bhatt" 
+//     },
+//     email:"rahul@google.com"
+// }
+
+// // ? is used when we are not sure if this exists or not.
+// console.log(user.userName?.firstName)
+
+
+
+// adding 2 objects to one
+
+const obj1 = {
+    a:1,
+    b:2,
 }
 
-// ? is used when we are not sure if this exists or not.
-console.log(user.userName?.firstName)
+const obj2 = {
+    c:1,
+    d:2,
+}
+
+const obj3 = Object.assign({},obj1,obj2);
+console.log(obj3);
