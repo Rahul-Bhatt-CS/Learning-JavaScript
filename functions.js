@@ -35,3 +35,5 @@
 //     return num + 2
 // }
 // addTwo(4)
+
+// note that in this way the function cannot be called before declaration.
