@@ -20,11 +20,18 @@
 
 
 
-function calculateCartPrice(...num1){
-    return num1;
-}
+// function calculateCartPrice(...num1){
+//     return num1;
+// }
 // used when we don't know how many args are going to be passed.
-console.log(calculateCartPrice(200,100,400))
+// console.log(calculateCartPrice(200,100,400))
 
 // Note:
 // Arrays and objects can also be passed as arguments and parameters.
+
+//  new way to make a function:
+
+// const addTwo = function(num){
+//     return num + 2
+// }
+// addTwo(4)
