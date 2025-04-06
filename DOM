@@ -1,0 +1,13 @@
+property:
+    element.innertext : this gives us the text which is displayed in the screen by the html code.
+
+    element.innercontent : this gives us all the text written no matter if it is hidden by the css or not displayed.
+
+    element.innerHTML : this gives us the code written in that perticular HTML element. i.e. it gives us all the child elements with code.
+
+
+
+<!-- this gives us element by using the same selectors we use in CSS or html like #id and .class or input[type="password"] -->
+    element.querySelector('h1') : this return us the first h1 element of the web page.
+
+    element.
