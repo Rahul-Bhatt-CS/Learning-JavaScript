@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur Code DOM 2</title>
+</head>
+<body style="background-color: #212121;color: white;"> 
+</body>
+<script>
+    const newElement = document.createElement('div')
+    console.log(newElement)
+    newElement.className = "main"
+    newElement.id = "first"
+    newElement.setAttribute("title","generate title")
+    newElement.style.background = "red"
+    newElement.style.padding = '12px'
+    // newElement.innerHTML = "Rahul Bhatt"
+    const text = document.createTextNode("Rahul Bhatt")
+    newElement.appendChild(text)
+    document.body.appendChild(newElement)
+</script>
+</html>
