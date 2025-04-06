@@ -8,6 +8,10 @@ property:
 
 
 <!-- this gives us element by using the same selectors we use in CSS or html like #id and .class or input[type="password"] -->
-    element.querySelector('h1') : this return us the first h1 element of the web page.
+    document.querySelector('h1') : this return us the first h1 element of the web page.
 
-    element.
+    document.querySelectorAll('li') : this returns a nodelist of all the elements we want. So we can apply for each but we cannot use the array functions
+                                    so we have to first convert it into an Array using : Array
+
+
+    getElementByClass : this is used to get a HTMLCollection Array.from(HTMLCollection_name); 
