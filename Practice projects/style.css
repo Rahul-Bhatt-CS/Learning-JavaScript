@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    height: 600px;
+    width: 400px;
+}
+h2{
+    letter-spacing: 1px;
+}
