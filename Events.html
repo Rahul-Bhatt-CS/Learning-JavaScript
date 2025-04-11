@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body style="background-color: #414141; color: aliceblue;">
+    <ul id="images">
+        <li id="st">
+            hello
+        </li>
+        <li id="nd">
+            how
+        </li>
+        <li id="rd">
+            are
+        </li>
+        <li id="th">
+            you
+        </li>
+        <li><a href="https://www.google.com">www.google.com</a></li>
+    </ul>
+    
+</body>
+<script>
+    // an event listener has 3 parameters and the third one is by default false.
+    // document.getElementById('4th').addEventListener('click', (e) => {
+    //     console.log(e.x)
+    //     console.log(e)
+    //     alert('clicked 1st')
+    // } , false);
+
+
+    // document.getElementById('images').addEventListener('click', (e) => {
+    //     e.preventDefault()
+    //     if(e.target.tagName === 'LI'){
+    //         const removeit = e.target
+    //         removeit.remove()
+    //     }else{
+    //         const removeit = e.target.parentNode
+    //         removeit.remove()
+    //     }
+    // })
+
+
+    // the true (3rd) argument of the addevenetlistner is used when we need 
+    document.querySelector('ul').addEventListener('click', (e) => {
+        alert('clicked list')
+    },true)
+    document.querySelector('#nd').addEventListener('click',()=>{
+        alert('hello')
+    },true)
+
+
+</script>
+</html>
